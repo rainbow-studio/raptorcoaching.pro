@@ -1,0 +1,383 @@
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h1",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "large",
+            "show_badges": true
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "heading": "Hurry up ! Sale end in:",
+            "number_size": "compact",
+            "colors_heading": "#da3f3f",
+            "colors_text": "#da3f3f",
+            "colors_background": "#ffeeee"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatch_type": "round",
+            "size_chart": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false
+          }
+        },
+        "43461cc8-4eef-4a25-9def-5cf8358681e9": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible row",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 20,
+            "show_inventory_transfer": true,
+            "color_scheme": "accent-3"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "disabled": true,
+          "settings": {
+            "show_quantity_selector": false
+          }
+        },
+        "89c8b28e-24ea-4fbd-b5f8-5166b91d13f4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Pour qui ?",
+            "content": "<p><strong>UN PROGRAMME SPÉCIFIQUE POUR UN PROFIL SPÉCIFIQUE<\/strong><br\/>Comme pour un vêtement, rien ne convient mieux qu’un programme confectionné sur-mesure. Nos coachs diplômés analyseront ta morphologie, ton matériel à disposition, tes disponibilités et tes objectifs pour élaborer le programme le plus adapté pour toi.<br\/><br\/><strong>DE DÉBUTANT A CONFIRME<\/strong><br\/>Quelque soit ton niveau, ton programme sélectionne les exercices, les séries et les répétitions les plus adaptés à ton profil pour optimiser ton temps et tes résultats à l’entraînement, dépasser la stagnation et atteindre ton objectif physique ou de performance.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "095cb4f0-45b8-46e5-aa82-7ed69b2da5a3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Comment ça marche ?",
+            "content": "<p><strong>UN QUESTIONNAIRE COMPLET<\/strong><br\/>Tu recevras dans un premier temps notre questionnaire d’entraînement afin d’établir ton profil détaillé pour que nos coachs élaborent le programme le plus adapté pour toi.<br\/><br\/><strong>UN PROGRAMME OPTIMISE<\/strong><br\/>A partir de ton questionnaire et de tes photos, nos coachs déterminent l’approche la plus optimale pour équilibrer ton physique et te faire atteindre tes objectifs.<br\/><br\/><strong>UN ENTRAÎNEMENT SUR-MESURE<\/strong><br\/>Contrairement à un programme tout fait, tu n’auras rien à modifier ou à adapter. Tout a été conçu pour ton cas spécifique, il ne reste plus qu’à appliquer à la lettre.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "4db238fa-49a6-4236-904e-276373c48747": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "A quoi dois-je m’attendre ?",
+            "content": "<p><strong>UN PROGRAMME ENTIÈREMENT DÉTAILLÉ<\/strong><br\/>Ton programme regroupera le détail de chacune de tes séances d’entraînement : exercice, nombre de séries et de répétitions, temps de repos, méthode d’intensification et d’autres indications spécifiques des coachs.<br\/><br\/><strong>LES EXERCICES EN VIDÉO<\/strong><br\/>Chaque exercice de ton programme sera démontré en vidéo par le Raptor pour mieux comprendre son exécution. Tu trouveras également une routine d’échauffement détaillé entièrement filmée pour prévenir les blessures, augmenter ta mobilité et maximiser tes performances lors de ta séance.<br\/><br\/><strong>DES RÉSULTATS GARANTIS<\/strong><br\/>Ton programme sera accompagné d’un guide complet sur l’optimisation de la récupération à travers le sommeil, la nutrition et la complémentation. En suivant ton programme à la lettre et en te dépassant à chaque entraînement, les résultats sont garantis.<br\/><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "rating",
+        "price",
+        "countdown",
+        "variant_picker",
+        "description",
+        "buy_buttons",
+        "43461cc8-4eef-4a25-9def-5cf8358681e9",
+        "inventory_status",
+        "share",
+        "related_buttons",
+        "sticky_cart",
+        "89c8b28e-24ea-4fbd-b5f8-5166b91d13f4",
+        "095cb4f0-45b8-46e5-aa82-7ed69b2da5a3",
+        "4db238fa-49a6-4236-904e-276373c48747"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt",
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "collapsible-content": {
+      "type": "collapsible-content",
+      "disabled": true,
+      "blocks": {
+        "question-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pour qui ?",
+            "row_content": "<p><strong>UN PROGRAMME SPECIFIQUE POUR UN PROFIL SPECIFIQUE<br\/><\/strong><\/p><p>Comme pour un vêtement, rien ne convient mieux qu’un programme confectionné sur-mesure. Nos coachs diplômés analyseront ta morphologie, ton matériel à disposition, tes disponibilités et tes objectifs pour élaborer le programme le plus adapté pour toi.<\/p><p><\/p><p><strong>DE DEBUTANT A CONFIRME<\/strong><\/p><p>Quelque soit ton niveau, ton programme sélectionne les exercices, les séries et les répétitions les plus adaptés à ton profil pour optimiser ton temps et tes résultats à l’entraînement, dépasser la stagnation et atteindre ton objectif physique ou de performance.<\/p>",
+            "page": ""
+          }
+        },
+        "question-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment ça marche ?",
+            "row_content": "<p><strong>UN QUESTIONNAIRE COMPLET<\/strong><br\/>Tu recevras dans un premier temps notre questionnaire d’entraînement afin d’établir ton profil détaillé pour que nos coachs élaborent le programme le plus adapté pour toi.<br\/><br\/><strong>UN PROGRAMME OPTIMISE<\/strong><br\/>A partir de ton questionnaire et de tes photos, nos coachs déterminent l’approche la plus optimale pour équilibrer ton physique et te faire atteindre tes objectifs.<br\/><br\/><strong>UN ENTRAÎNEMENT SUR-MESUR<\/strong>E<br\/>Contrairement à un programme tout fait, tu n’auras rien à modifier ou à adapter. Tout a été conçu pour ton cas spécifique, il ne reste plus qu’à appliquer à la lettre.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "question-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "A quoi dois-je m’attendre ?",
+            "row_content": "<p><strong>UN PROGRAMME ENTIEREMENT DETAILLE<\/strong><br\/>Ton programme regroupera le détail de chacune de tes séances d’entraînement : exercice, nombre de séries et de répétitions, temps de repos, méthode d’intensification et d’autres indications spécifiques des coachs.<br\/><strong><br\/>LES EXERCICES EN VIDEO<\/strong><br\/>Chaque exercice de ton programme sera démontré en vidéo par le Raptor pour mieux comprendre son exécution. Tu trouveras également une routine d’échauffement détaillé entièrement filmée pour prévenir les blessures, augmenter ta mobilité et maximiser tes performances lors de ta séance.<br\/><strong><br\/>DES RESULTATS GARANTIS<\/strong><br\/>Ton programme sera accompagné d’un guide complet sur l’optimisation de la récupération à travers le sommeil, la nutrition et la complémentation. En suivant ton programme à la lettre et en te dépassant à chaque entraînement, les résultats sont garantis.<br\/><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "question-0",
+        "question-1",
+        "question-2"
+      ],
+      "settings": {
+        "open_first_collapsible_row": false,
+        "narrow": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "54313485-5106-402b-b60f-0fc22f875c5c": {
+      "type": "gallery",
+      "blocks": {
+        "template--18024481128724__54313485-5106-402b-b60f-0fc22f875c5c-167749774541f7ab15-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/avant-apres.jpg",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--18024481128724__54313485-5106-402b-b60f-0fc22f875c5c-167749774541f7ab15-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/avant-apres.jpg",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18024481128724__54313485-5106-402b-b60f-0fc22f875c5c-167749774541f7ab15-0",
+        "template--18024481128724__54313485-5106-402b-b60f-0fc22f875c5c-167749774541f7ab15-2"
+      ],
+      "settings": {
+        "per_row": 2,
+        "spacing_images": 2,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Transformations",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "guarantees": {
+      "type": "guarantees",
+      "blocks": {
+        "guarantee-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "large",
+            "custom_icon": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?-->\n<svg width=\"110px\" height=\"110px\" viewbox=\"0 0 110 110\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n    <title>muscle<\/title>\n    <g id=\"muscle\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M48.7644128,84.5070549 C52.3670762,71.4629287 64.9639752,62.1456957 79.4740127,63.6861449 C93.2883635,65.1520562 104.270275,76.804809 104.965962,90.6688517 C105.139884,94.321207 104.642965,97.8244866 103.574589,101.079307 C102.928594,103.066983 100.990609,104.383819 98.8787033,104.383819 L24.883475,104.383819 C12.3403426,104.383819 2.93284429,92.908466 5.39274287,80.6089731 L20.5144133,5 L50.3294595,5 L60.2678413,22.3921683 L38.9751067,37.6227385 L32.9372912,29.8459547\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"8\"><\/path>\n        <line x1=\"38.9997041\" y1=\"37.6227385\" x2=\"50.3297079\" y2=\"79.537864\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"8\"><\/line>\n    <\/g>\n<\/svg>",
+            "title": "Prise de muscle",
+            "title_size": "h2",
+            "text": ""
+          }
+        },
+        "guarantee-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "large",
+            "custom_icon": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?-->\n<svg width=\"110px\" height=\"110px\" viewbox=\"0 0 110 110\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n    <title>scale<\/title>\n    <g id=\"scale\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <line x1=\"28.2925061\" y1=\"52.1702192\" x2=\"55.8925144\" y2=\"37.7397119\" id=\"Path-2\" stroke=\"#E6BD7D\" stroke-width=\"7\" stroke-linecap=\"round\" transform=\"translate(42.014097, 44.911424) rotate(70.000000) translate(-42.014097, -44.911424) \"><\/line>\n        <path d=\"M80,5 L30,5 C16.1990009,5.01476307 5.01476307,16.1990009 5,30 L5,80 C5.01476307,93.8009991 16.1990009,104.985237 30,105 L80,105 C93.8009991,104.985237 104.985237,93.8009991 105,80 L105,30 C104.985237,16.1990009 93.8009991,5.01476307 80,5 L80,5 Z M88.0825893,44.7321429 L80.6450893,53.484375 C78.8757335,55.5826993 76.2715224,56.794568 73.5267857,56.796875 C71.7680712,56.7945871 70.0449166,56.3013738 68.5513393,55.3727679 C65.3772321,53.4129464 60.4486607,51.0758929 55.0044643,51.0758929 C49.5602679,51.0758929 44.6316964,53.4129464 41.4575893,55.3727679 C37.5168019,57.8415471 32.3603396,57.0366823 29.359375,53.484375 L21.9174107,44.7321429 C17.9479441,40.0952814 18.392309,33.1408215 22.9196429,29.046875 C29.1339286,23.3883929 39.7433036,16.6428571 55,16.6428571 C70.2566964,16.6428571 80.8660714,23.3883929 87.0803571,29.046875 C91.607691,33.1408215 92.0520559,40.0952814 88.0825893,44.7321429 L88.0825893,44.7321429 Z\" id=\"Shape\" fill=\"#E6BD7D\" fill-rule=\"nonzero\"><\/path>\n    <\/g>\n<\/svg>",
+            "title": "Perte de gras",
+            "title_size": "h2",
+            "text": ""
+          }
+        },
+        "guarantee-2": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "large",
+            "custom_icon": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?-->\n<svg width=\"110px\" height=\"110px\" viewbox=\"0 0 110 110\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n    <title>Athletic<\/title>\n    <g id=\"Athletic\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <path d=\"M7.45393977,5 C6.11648929,5 5.03439126,6.22489381 5.03439126,7.73705913 C5.03439126,12.3134539 5.03439126,21.482203 5.03439126,26.0564979 C5.03439126,27.5686632 6.11669928,28.793557 7.45393977,28.793557 C8.78740037,28.793557 9.87180833,27.5686632 9.87180833,26.0564979 C9.87180833,24.2633609 9.87180833,21.7572949 9.87180833,19.1025533 C10.0563929,19.1025533 11.7212237,19.1025533 14.4580728,19.1025533 C14.6630268,19.925729 15.0825944,20.705016 15.7413449,21.3354174 L43.5709827,48.0327686 L43.5709827,63.9828473 L28.261595,63.9828473 C24.9602825,63.9828473 22.2795017,66.6615282 22.2795017,69.9628406 L22.2795017,99.8569274 C22.2795017,103.16013 24.9581826,105.838811 28.261595,105.838811 C31.5629075,105.838811 34.2375984,103.16013 34.2375984,99.8569274 L34.2375984,75.9449339 L54.6214862,75.9449339 L81.7585644,104.015645 C82.9313798,105.228359 84.4916337,105.840911 86.0579774,105.840911 C87.5560731,105.840911 89.0520689,105.282747 90.2124946,104.15802 C92.5879444,101.862788 92.6503126,98.0797499 90.3552904,95.7040901 L63.1354746,67.547282 L63.1354746,49.4787859 C63.5350928,49.269842 63.9206414,49.0170095 64.2581015,48.6816494 L93.4894478,19.6168281 C93.6500931,19.4561829 93.7786093,19.2795781 93.9111154,19.1027633 C97.3128048,19.1027633 99.5318093,19.1027633 100.066034,19.1027633 C100.066034,21.7575049 100.066034,24.2614709 100.066034,26.0588078 C100.066034,27.5688732 101.148342,28.793767 102.483692,28.793767 C103.819043,28.793767 104.903451,27.5688732 104.903451,26.0567079 C104.903451,21.4803131 104.903451,12.311564 104.903451,7.73726913 C104.903451,6.2251038 103.819043,5 102.483692,5 C101.148552,5 100.066034,6.2251038 100.066034,7.73726913 C100.066034,9.53250609 100.066034,12.0364721 100.066034,14.6912137 C99.5658283,14.6912137 97.5899967,14.6912137 94.5557963,14.6912137 C94.3311029,14.0908414 93.9875531,13.5244881 93.5056173,13.0406624 C91.6944208,11.2193862 88.7486279,11.2132964 86.9311316,13.022603 L85.2524412,14.6912137 C67.6337517,14.6912137 38.6774973,14.6912137 22.2473727,14.6912137 L22.1770248,14.6250656 C20.3517587,12.8739274 17.4700138,12.9161361 15.6869565,14.6912137 C12.217019,14.6912137 10.0803322,14.6912137 9.8694984,14.6912137 C9.8694984,12.0364721 9.8694984,9.53250609 9.8694984,7.73516919 C9.87159834,6.22300387 8.78719038,5 7.45393977,5 Z M45.9485324,19.1027633 C44.4825657,20.9460889 43.5709827,23.2474109 43.5709827,25.7856059 C43.5709827,31.7517396 48.4044099,36.5809669 54.3642438,36.5809669 C60.3303775,36.5809669 65.1614948,31.7515296 65.1614948,25.7856059 C65.1614948,23.2474109 64.2499117,20.9441989 62.783945,19.1027633 C69.1898058,19.1027633 75.376643,19.1027633 80.8165322,19.1027633 L60.0630554,39.7375937 L48.3561113,39.7375937 L26.8479168,19.1027633 C32.4723906,19.1027633 39.0609459,19.1027633 45.9485324,19.1027633 Z\" id=\"Shape\" fill=\"#E6BD7D\" fill-rule=\"nonzero\"><\/path>\n        <path d=\"M108.176624,25.1409249 C109.184594,25.1409249 110,24.325729 110,23.3175488 C110,20.1468525 110,13.6506944 109.9979,10.4799981 C109.9979,9.46992793 109.182494,8.65473202 108.174524,8.65473202 C108.098296,8.65473202 108.019969,8.65473202 107.939541,8.65473202 C106.933461,8.65473202 106.116165,9.46803799 106.116165,10.4781081 C106.116165,13.6488045 106.116165,20.1468525 106.116165,23.3177588 C106.116165,24.327829 106.933461,25.1430249 107.939541,25.1430249 C108.019969,25.1409249 108.098296,25.1409249 108.176624,25.1409249 Z\" id=\"Path\" fill=\"#E6BD7D\" fill-rule=\"nonzero\"><\/path>\n        <path d=\"M2.06024913,25.1409249 C3.06821935,25.1409249 3.88362526,24.325729 3.88362526,23.3175488 C3.88362526,20.1468525 3.88362526,13.6506944 3.88362526,10.4799981 C3.88362526,9.46992793 3.06842934,8.65473202 2.06024913,8.65473202 C1.98192144,8.65473202 1.90359376,8.65473202 1.82127619,8.65473202 C0.817295853,8.65473202 0,9.46803799 0,10.4781081 C0,13.6488045 0,20.1468525 0,23.3177588 C0,24.327829 0.817295853,25.1430249 1.82337613,25.1430249 C1.90359376,25.1409249 1.98192144,25.1409249 2.06024913,25.1409249 Z\" id=\"Path\" fill=\"#E6BD7D\" fill-rule=\"nonzero\"><\/path>\n    <\/g>\n<\/svg>",
+            "title": "Gain de force",
+            "title_size": "h2",
+            "text": ""
+          }
+        },
+        "guarantee-3": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "large",
+            "custom_icon": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?-->\n<svg width=\"110px\" height=\"68px\" viewbox=\"0 0 110 68\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n    <title>dumbell<\/title>\n    <g id=\"dumbell\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M28,58 L28,58 C24.7,58 22,55.3 22,52 L22,16 C22,12.7 24.7,10 28,10 L28,10 C31.3,10 34,12.7 34,16 L34,52 C34,55.3 31.3,58 28,58 Z\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"5\"><\/path>\n        <path d=\"M16,49 L16,49 C12.7,49 10,46.3 10,43 L10,25 C10,21.7 12.7,19 16,19 L16,19 C19.3,19 22,21.7 22,25 L22,43 C22,46.3 19.3,49 16,49 Z\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"5\"><\/path>\n        <path d=\"M82,10 L82,10 C85.3,10 88,12.7 88,16 L88,52 C88,55.3 85.3,58 82,58 L82,58 C78.7,58 76,55.3 76,52 L76,16 C76,12.7 78.7,10 82,10 Z\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"5\"><\/path>\n        <path d=\"M94,19 L94,19 C97.3,19 100,21.7 100,25 L100,43 C100,46.3 97.3,49 94,49 L94,49 C90.7,49 88,46.3 88,43 L88,25 C88,21.7 90.7,19 94,19 Z\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"5\"><\/path>\n        <line x1=\"34\" y1=\"34\" x2=\"76\" y2=\"34\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"5\"><\/line>\n    <\/g>\n<\/svg>",
+            "title": "Adapté à ton matériel",
+            "title_size": "h2",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "guarantee-0",
+        "guarantee-1",
+        "guarantee-2",
+        "guarantee-3"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#f2f2f2",
+        "gradient_background": "",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_divider": false,
+        "heading": "Vous seriez peut-être intéressé par",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": false,
+        "enable_quick_view": false,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "collapsible-content",
+    "54313485-5106-402b-b60f-0fc22f875c5c",
+    "guarantees",
+    "product-recommendations"
+  ]
+}

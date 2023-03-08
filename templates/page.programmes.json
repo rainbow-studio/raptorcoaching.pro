@@ -25,10 +25,11 @@
         "template--18000780591380__138296c7-3e54-4bda-acef-e8babdbf1b1b-167705921322b2fe61-0"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/training-raptor.jpg",
         "image_position": "center center",
-        "text_box_position": "bottom-center",
-        "text_alignment": "center",
-        "image_ratio": "400px",
+        "text_box_position": "bottom-left",
+        "text_alignment": "left",
+        "image_ratio": "550px",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
@@ -59,7 +60,7 @@
         "template--18000780591380__c4b0689d-038c-446b-aa5d-0b6b63f0f344-16770593270a5722fc-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Développe toutes tes qualités athlétiques, prends du muscle et brûle un maximum de calories avec peu de matériel et en un minimum de temps.<\/p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -80,6 +81,7 @@
         "template--18000780591380__c4b0689d-038c-446b-aa5d-0b6b63f0f344-16770593270a5722fc-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/daily-raptor.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -115,7 +117,7 @@
         "template--18000780591380__e689e7fd-771c-4ecf-a13f-108ae15d20ca-16770593270a5722fc-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Sculpte et tonifie ton corps sans aucun matériel en seulement 6 semaines.<\/p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -136,6 +138,7 @@
         "template--18000780591380__e689e7fd-771c-4ecf-a13f-108ae15d20ca-16770593270a5722fc-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/photo-raptor-bodyweight.jpg",
         "image_position": "center center",
         "layout": "text_first",
         "text_box_position": "middle",
@@ -171,7 +174,7 @@
         "template--18000780591380__cf98ab84-05d0-463f-88cd-8ae63c471d88-16770627426679b58b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Atteins ton objectif le plus rapidement et efficacement possible avec un programme d’entraînement entièrement conçu pour toi.<\/p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -192,6 +195,7 @@
         "template--18000780591380__cf98ab84-05d0-463f-88cd-8ae63c471d88-16770627426679b58b-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/training-raptor.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -227,7 +231,7 @@
         "template--18000780591380__a49f09e4-845d-445a-a263-77bfa7be3083-16770627426679b58b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Atteins ton objectif physique le plus rapidement et efficacement possible avec un plan nutritionnel entièrement conçu pour toi.<\/p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -248,6 +252,7 @@
         "template--18000780591380__a49f09e4-845d-445a-a263-77bfa7be3083-16770627426679b58b-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/nutrition.jpg",
         "image_position": "center center",
         "layout": "text_first",
         "text_box_position": "middle",
@@ -275,69 +280,57 @@
         "template--18000780591380__c9dfbad6-665b-41b1-8302-3ce0216ef021-1677062915de636008-0": {
           "type": "guarantee",
           "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
+            "icon": "none",
+            "icon_size": "large",
+            "custom_icon": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?-->\n<svg width=\"110px\" height=\"68px\" viewbox=\"0 0 110 68\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n    <title>dumbell<\/title>\n    <g id=\"dumbell\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M28,58 L28,58 C24.7,58 22,55.3 22,52 L22,16 C22,12.7 24.7,10 28,10 L28,10 C31.3,10 34,12.7 34,16 L34,52 C34,55.3 31.3,58 28,58 Z\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"5\"><\/path>\n        <path d=\"M16,49 L16,49 C12.7,49 10,46.3 10,43 L10,25 C10,21.7 12.7,19 16,19 L16,19 C19.3,19 22,21.7 22,25 L22,43 C22,46.3 19.3,49 16,49 Z\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"5\"><\/path>\n        <path d=\"M82,10 L82,10 C85.3,10 88,12.7 88,16 L88,52 C88,55.3 85.3,58 82,58 L82,58 C78.7,58 76,55.3 76,52 L76,16 C76,12.7 78.7,10 82,10 Z\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"5\"><\/path>\n        <path d=\"M94,19 L94,19 C97.3,19 100,21.7 100,25 L100,43 C100,46.3 97.3,49 94,49 L94,49 C90.7,49 88,46.3 88,43 L88,25 C88,21.7 90.7,19 94,19 Z\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"5\"><\/path>\n        <line x1=\"34\" y1=\"34\" x2=\"76\" y2=\"34\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"5\"><\/line>\n    <\/g>\n<\/svg>",
+            "title": "Adapté à ton matériel",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": "<p>Des programmes adaptés que tu sois à la salle de sport ou chez toi.<\/p>"
           }
         },
         "template--18000780591380__c9dfbad6-665b-41b1-8302-3ce0216ef021-1677062915de636008-1": {
           "type": "guarantee",
           "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
+            "icon": "none",
+            "icon_size": "large",
+            "custom_icon": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?-->\n<svg width=\"110px\" height=\"110px\" viewbox=\"0 0 110 110\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n    <title>target<\/title>\n    <g id=\"target\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M73,37 L73,23.5 L86.5,10 L91,19 L100,23.5 L86.5,37 L73,37 Z M73,37 L55,54.99955 M100,55 C100,79.8526 79.8526,100 55,100 C30.147175,100 10,79.8526 10,55 C10,30.147175 30.147175,10 55,10 M77.5,55 C77.5,67.4263 67.4263,77.5 55,77.5 C42.57361,77.5 32.5,67.4263 32.5,55 C32.5,42.57361 42.57361,32.5 55,32.5\" id=\"Shape\" stroke=\"#E6BD7D\" stroke-width=\"7\"><\/path>\n    <\/g>\n<\/svg>",
+            "title": "Adapté à ton objectif physique",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": "<p>Plusieurs types de programmes afin de pouvoir accomplir ton objectif.<\/p>"
           }
         },
         "9a8e8578-3d1d-42de-88aa-2e7519eded49": {
           "type": "guarantee",
           "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
+            "icon": "none",
+            "icon_size": "large",
+            "custom_icon": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?-->\n<svg width=\"110px\" height=\"88px\" viewbox=\"0 0 110 88\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n    <title>refund<\/title>\n    <g id=\"refund\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <path d=\"M95.4790442,27.9128955 C95.4811101,27.8994668 95.4924729,27.891203 95.4935059,27.8777742 C95.4914399,27.891203 95.4811101,27.9004998 95.4790442,27.9128955 Z\" id=\"Path\" fill=\"#E6BD7D\" fill-rule=\"nonzero\"><\/path>\n        <path d=\"M10.001033,10 L10.001033,25.1114554 L10,25.1114554 L10,32.6666667 L10.001033,32.6666667 L10.001033,78 L51.5567607,78 L51.5567607,70.4437558 L17.5562442,70.4437558 L17.5562442,32.6666667 L93.1114554,32.6666667 L93.1114554,47.3566665 L100.666667,47.3566665 L100.666667,10 L10.001033,10 Z M17.5562442,25.1104225 L17.5562442,17.5552112 L93.1114554,17.5552112 L93.1114554,25.1104225 L17.5562442,25.1104225 Z\" id=\"Shape\" fill=\"#E6BD7D\" fill-rule=\"nonzero\"><\/path>\n        <path d=\"M21.3338498,51.5546947 L44.0005165,51.5546947 L44.0005165,59.109906 L21.3338498,59.109906 L21.3338498,51.5546947 Z M87.4455635,51.5546947 L79.5649638,51.5546947 L84.4499233,46.6697352 L79.1083869,41.3281988 L65.1032524,55.3323004 L79.1073539,69.3364019 L84.4488903,63.9948655 L79.5639308,59.109906 L87.4445305,59.109906 C90.5692932,59.109906 93.1114554,61.6520682 93.1114554,64.7768309 C93.1114554,67.9015935 90.5703261,70.4437558 87.4455635,70.4437558 L59.1119719,70.4437558 L59.1119719,77.998967 L87.4455635,77.998967 C94.735299,77.998967 100.6677,72.0665664 100.6677,64.7768309 C100.6677,57.4870954 94.735299,51.5546947 87.4455635,51.5546947 L87.4455635,51.5546947 Z\" id=\"Shape\" fill=\"#E6BD7D\" fill-rule=\"nonzero\"><\/path>\n    <\/g>\n<\/svg>",
+            "title": "Satisfait ou remboursé",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "8d9eaf98-ede4-4672-86ea-0b5e4ac3e76e": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.<\/p>"
+            "text": "<p>15 jours pour changer d’avis<\/p>"
           }
         }
       },
       "block_order": [
         "template--18000780591380__c9dfbad6-665b-41b1-8302-3ce0216ef021-1677062915de636008-0",
         "template--18000780591380__c9dfbad6-665b-41b1-8302-3ce0216ef021-1677062915de636008-1",
-        "9a8e8578-3d1d-42de-88aa-2e7519eded49",
-        "8d9eaf98-ede4-4672-86ea-0b5e4ac3e76e"
+        "9a8e8578-3d1d-42de-88aa-2e7519eded49"
       ],
       "settings": {
         "layout": "default",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "horizontal_content": false,
-        "full_width": false,
+        "full_width": true,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "use_custom_colors": false,
+        "use_custom_colors": true,
         "colors_icon": "#ffffff",
         "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
+        "colors_background": "#f3f3f3",
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36

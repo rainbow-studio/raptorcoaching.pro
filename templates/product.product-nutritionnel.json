@@ -1,0 +1,360 @@
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "heading": "Hurry up ! Sale end in:",
+            "number_size": "compact",
+            "colors_heading": "#da3f3f",
+            "colors_text": "#da3f3f",
+            "colors_background": "#ffeeee"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatch_type": "round",
+            "size_chart": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 20,
+            "show_inventory_transfer": true,
+            "color_scheme": "accent-3"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "disabled": true,
+          "settings": {
+            "show_quantity_selector": false
+          }
+        },
+        "dc7cb06e-5236-4d4f-953a-efd0f69cac5a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Pour qui ?",
+            "content": "<p><strong>UN PLAN SPÉCIFIQUE POUR UN PROFIL SPÉCIFIQUE<\/strong><br\/>Comme pour un vêtement, rien ne convient mieux qu’un plan nutritionnel confectionné sur-mesure. Nos coachs diplômés analyseront tes habitudes alimentaires, tes préférences de goût et tes horaires privilégiés de repas pour élaborer le plan le plus adapté pour toi.<br\/><br\/><strong>SANTÉ ET PERFORMANCE<\/strong><br\/>Une meilleure alimentation conçue sur-mesure pour prendre réellement soin de ta santé, améliorer drastiquement tes performances et optimiser ton énergie et ton bien-être au quotidien.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "bc18d422-933e-4cee-87d7-f2e1f69e65e9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Comment ça marche ?",
+            "content": "<p><strong>UN QUESTIONNAIRE COMPLET<\/strong><br\/>Tu recevras dans un premier temps notre questionnaire nutrition afin d’établir ton profil détaillé pour que nos coachs élaborent le plan le plus adapté pour toi.<br\/><strong><br\/>UN PLAN OPTIMISÉ<\/strong><br\/>A partir de ton questionnaire et de tes photos, nos coachs déterminent l’approche la plus optimale pour convenir à tes besoins en respectant tes contraintes pour te faire atteindre tes objectifs.<br\/><br\/><strong>UNE NUTRITION SUR-MESURE<\/strong><br\/>Contrairement à un plan alimentaire tout fait, tu n’auras rien à modifier ou à adapter. Tout a été conçu pour ton cas spécifique, il ne reste plus qu’à appliquer à la lettre.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "532e8402-5579-4bf7-b417-86c55d4bfbcd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "A quoi dois-je m’attendre ?",
+            "content": "<p><strong>UN PLAN ENTIÈREMENT DÉTAILLÉ<\/strong><br\/>Ton plan nutritionnel contiendra tes apports caloriques et en macronutriments précis, le menu détaillé de chacun de tes plats de la journée avec les quantités exactes de chaque aliment et des propositions d’alternatives pour diversifier ta diète et prendre du plaisir à manger. <br\/><br\/><strong>DES RECETTES GOURMANDES<\/strong><br\/>Découvre nos recettes gourmandes et saine favorites, détaillées sur leur préparation et leurs apports nutritionnels, qui rendent la diète tellement plus agréable et facile à suivre.<br\/><strong><br\/>DES RÉSULTATS GARANTIS<\/strong><br\/>Optimise ta santé et tes résultats grâce à notre guide complet sur les compléments alimentaires les plus efficaces. En suivant ton plan nutritionnel à la lettre, les résultats sont garantis.<br\/><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "rating",
+        "price",
+        "countdown",
+        "variant_picker",
+        "description",
+        "buy_buttons",
+        "inventory_status",
+        "share",
+        "related_buttons",
+        "sticky_cart",
+        "dc7cb06e-5236-4d4f-953a-efd0f69cac5a",
+        "bc18d422-933e-4cee-87d7-f2e1f69e65e9",
+        "532e8402-5579-4bf7-b417-86c55d4bfbcd"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt",
+        "show_thumbnails": false,
+        "hide_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "collapsible-content": {
+      "type": "collapsible-content",
+      "disabled": true,
+      "blocks": {
+        "question-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pour qui ?",
+            "row_content": "<p><strong>UN PLAN SPÉCIFIQUE POUR UN PROFIL SPÉCIFIQUE<\/strong><br\/>Comme pour un vêtement, rien ne convient mieux qu’un plan nutritionnel confectionné sur-mesure. Nos coachs diplômés analyseront tes habitudes alimentaires, tes préférences de goût et tes horaires privilégiés de repas pour élaborer le plan le plus adapté pour toi.<br\/><strong><br\/>SANTÉ ET PERFORMANCE<\/strong><br\/>Une meilleure alimentation conçue sur-mesure pour prendre réellement soin de ta santé, améliorer drastiquement tes performances et optimiser ton énergie et ton bien-être au quotidien.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "question-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment ça marche ?",
+            "row_content": "<p><strong>UN QUESTIONNAIRE COMPLET<\/strong><br\/>Tu recevras dans un premier temps notre questionnaire nutrition afin d’établir ton profil détaillé pour que nos coachs élaborent le plan le plus adapté pour toi.<br\/><br\/><strong>UN PLAN OPTIMISÉ<\/strong><br\/>A partir de ton questionnaire et de tes photos, nos coachs déterminent l’approche la plus optimale pour convenir à tes besoins en respectant tes contraintes pour te faire atteindre tes objectifs.<br\/><br\/><strong>UNE NUTRITION SUR-MESURE<\/strong><br\/>Contrairement à un plan alimentaire tout fait, tu n’auras rien à modifier ou à adapter. Tout a été conçu pour ton cas spécifique, il ne reste plus qu’à appliquer à la lettre.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "question-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "A quoi dois-je m’attendre ?",
+            "row_content": "<p><strong>UN PLAN ENTIÈREMENT DÉTAILLÉ<\/strong><br\/>Ton plan nutritionnel contiendra tes apports caloriques et en macronutriments précis, le menu détaillé de chacun de tes plats de la journée avec les quantités exactes de chaque aliment et des propositions d’alternatives pour diversifier ta diète et prendre du plaisir à manger. <br\/><strong><br\/>DES RECETTES GOURMANDES<\/strong><br\/>Découvre nos recettes gourmandes et saine favorites, détaillées sur leur préparation et leurs apports nutritionnels, qui rendent la diète tellement plus agréable et facile à suivre.<br\/><br\/><strong>DES RÉSULTATS GARANTIS<\/strong><br\/>Optimise ta santé et tes résultats grâce à notre guide complet sur les compléments alimentaires les plus efficaces. En suivant ton plan nutritionnel à la lettre, les résultats sont garantis.<br\/><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "question-0",
+        "question-1",
+        "question-2"
+      ],
+      "settings": {
+        "open_first_collapsible_row": false,
+        "narrow": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "54313485-5106-402b-b60f-0fc22f875c5c": {
+      "type": "gallery",
+      "blocks": {
+        "template--18024481128724__54313485-5106-402b-b60f-0fc22f875c5c-167749774541f7ab15-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/avant-apres.jpg",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--18024481128724__54313485-5106-402b-b60f-0fc22f875c5c-167749774541f7ab15-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/avant-apres.jpg",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18024481128724__54313485-5106-402b-b60f-0fc22f875c5c-167749774541f7ab15-1",
+        "template--18024481128724__54313485-5106-402b-b60f-0fc22f875c5c-167749774541f7ab15-3"
+      ],
+      "settings": {
+        "per_row": 2,
+        "spacing_images": 2,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Transformations",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "guarantees": {
+      "type": "guarantees",
+      "blocks": {
+        "guarantee-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "large",
+            "custom_icon": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?-->\n<svg width=\"110px\" height=\"110px\" viewbox=\"0 0 110 110\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n    <title>upndown<\/title>\n    <g id=\"upndown\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <path d=\"M55.000927,5 C27.4317259,5 5,27.4317259 5,55.000927 C5,82.5719821 27.4317259,105 55.000927,105 C82.5701281,105 105,82.5719821 105,55.000927 C105,27.4317259 82.5701281,5 55.000927,5 Z M55.000927,97.6803493 C51.3466637,97.6803493 47.8184734,97.1723492 44.4330423,96.3046703 C44.4367503,96.2342177 44.4534364,96.1674732 44.4534364,96.0951666 L44.4534364,53.0746056 L46.9304003,55.5515694 C48.4747947,57.0959638 50.9777147,57.0959638 52.5239631,55.5515694 C54.0683575,54.007175 54.0683575,51.5024009 52.5239631,49.9580066 L43.2965311,40.7305746 C43.2965311,40.7287205 43.2946771,40.7287205 43.2928231,40.7268665 L40.4988227,37.9310121 L37.7048223,40.7268665 C37.7029683,40.7287205 37.7011143,40.7287205 37.7011143,40.7287205 L27.813653,50.6161818 C26.2692586,52.1605762 26.2692586,54.6653503 27.813653,56.2097447 C28.5867772,56.9828689 29.5972153,57.368504 30.6095074,57.368504 C31.6217995,57.368504 32.6340916,56.9828689 33.4053618,56.2097447 L36.542355,53.0746056 L36.542355,93.4272392 C22.2349222,86.5247418 12.3177967,71.9169587 12.3177967,55.000927 C12.3177967,31.4660623 31.4660623,12.3196507 54.999073,12.3196507 C57.863526,12.3196507 60.6593804,12.6125851 63.3680961,13.1539574 C63.3161837,13.4116655 63.2883735,13.6730816 63.2883735,13.9474758 L63.2883735,56.9680368 L60.8114096,54.4910729 C59.2670152,52.9466785 56.7622411,52.9466785 55.2178467,54.4910729 C53.6734524,56.0354673 53.6734524,58.5402414 55.2178467,60.0846358 L64.4434247,69.3120678 C64.4434247,69.3139218 64.4452788,69.3139218 64.4471328,69.3157758 L67.2411332,72.1116302 L70.0351336,69.3157758 C70.0369876,69.3139218 70.0388416,69.3139218 70.0388416,69.3139218 L79.9263029,59.4264605 C81.4706973,57.8820661 81.4706973,55.377292 79.9263029,53.8328976 C78.3819085,52.2885033 75.8789884,52.2885033 74.33274,53.8328976 L71.1976009,56.9680368 L71.1976009,15.5326585 C86.7194134,21.9253017 97.6822033,37.2005302 97.6822033,55.000927 C97.6840573,78.5339377 78.5339377,97.6803493 55.000927,97.6803493 Z\" id=\"Shape\" fill=\"#E6BD7D\" fill-rule=\"nonzero\"><\/path>\n    <\/g>\n<\/svg>",
+            "title": "Adapté à ton objectif physique",
+            "title_size": "h2",
+            "text": ""
+          }
+        },
+        "guarantee-2": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "large",
+            "custom_icon": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?-->\n<svg width=\"110px\" height=\"110px\" viewbox=\"0 0 110 110\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n    <title>energy<\/title>\n    <g id=\"energy\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <path d=\"M74.0673477,22.5878118 C69.8188712,10.0792745 63.2014715,2 55.7362468,2 C48.168161,2 41.4759533,10.3005818 37.2337107,23.0771814 C33.2532965,22.2636434 29.4786046,21.7992098 26.0935382,21.7992098 C18.2885601,21.7992098 12.3818374,24.0060487 9.75420294,28.5662256 C5.93275596,35.1898592 9.90693614,45.2764844 19.0833961,55.4503856 C15.8074248,59.2406625 -20.131632,103.287047 37.4020289,87.5430594 C41.6411545,100.054714 48.2679051,108.127754 55.7362468,108.127754 C63.2856307,108.127754 69.9903064,99.8396404 74.2263149,87.0505728 C78.2129631,87.8734618 81.987655,88.3378954 85.3664874,88.3378954 C93.1714656,88.3378954 99.0688373,86.1341736 101.705823,81.5615286 C105.517919,74.941012 101.546855,64.8512699 92.3797465,54.6804856 C112.817942,34.245407 109.610545,15.9828802 74.0673477,22.5878118 Z M15.4988414,31.8858349 C16.745643,29.7226341 20.7042382,28.4321944 26.0935382,28.4259604 C28.9393629,28.4259604 32.08442,28.8000009 35.3977953,29.4576888 C34.4315241,33.463039 33.7021451,37.7863236 33.2127755,42.3433835 C29.6812099,45.036475 26.4426427,47.8168427 23.5781159,50.6252633 C16.2967945,42.4337767 13.5662989,35.2366143 15.4988414,31.8858349 Z M32.5987257,59.2126095 C31.0433407,57.9284038 29.5627637,56.6473152 28.216218,55.3755775 C29.5721147,54.0383828 31.0246386,52.694954 32.5956087,51.3484083 C32.5582046,52.5827419 32.5176836,53.8077245 32.5176836,55.0607601 C32.5176836,56.4634119 32.5582046,57.8411277 32.5987257,59.2126095 Z M23.6934451,60.1757638 C26.5392698,62.8657383 29.759135,65.5027237 33.2470625,68.058667 C33.7551342,72.6936521 34.5250342,77.0886278 35.5287095,81.1532011 C-3.47124528,94.4378724 19.1582042,64.7016537 23.6934451,60.1757638 Z M70.8661845,37.1005827 C69.703542,36.3743208 68.5284315,35.6449418 67.3221509,34.9498499 C66.0130092,34.1955349 64.6976335,33.512911 63.3947258,32.8178191 C65.4831185,32.0105151 67.5403412,31.2780191 69.5508088,30.6483843 C70.0495295,32.677554 70.495261,34.8282868 70.8661845,37.1005827 Z M55.7362468,8.62363363 C59.5171727,8.62363363 64.2612529,14.305932 67.7055424,24.267877 C63.7438303,25.4928596 59.6387359,27.0451276 55.4525995,28.9745531 C51.4036112,27.2165628 47.448133,25.792092 43.620452,24.6730875 C47.0803266,14.4648992 51.8992148,8.62363363 55.7362468,8.62363363 Z M41.8063557,31.0567118 C43.7077282,31.6177726 45.6465047,32.2567584 47.6133342,32.9830204 C46.3135436,33.6999313 45.0106359,34.4106082 43.7139622,35.1929762 C42.6354788,35.8506641 41.6099844,36.542639 40.5751391,37.2190289 C40.9367116,35.055828 41.3388051,33.0017224 41.8063557,31.0567118 Z M40.5938411,73.0302885 C41.7596006,73.7565505 42.9191261,74.4828124 44.1378747,75.1810213 C45.4438994,75.9291023 46.7561581,76.6179602 48.0652998,77.3130521 C45.9769071,78.1297071 43.9259184,78.8590861 41.9092168,79.4731359 C41.4073792,77.4470833 40.9772326,75.2994675 40.5938411,73.0302885 Z M55.7362468,101.49477 C51.9459699,101.49477 47.2081237,95.8218222 43.7607172,85.8536432 C47.7193124,84.6348946 51.8212897,83.0826266 56.0074262,81.1594351 C60.0532974,82.9174254 64.0118926,84.3418962 67.8333396,85.4609007 C64.3828161,95.662855 59.5670448,101.49477 55.7362468,101.49477 Z M69.6536699,79.0772764 C67.7429465,78.5193327 65.8135209,77.8803468 63.8466914,77.1509679 C65.1433651,76.4278229 66.4462728,75.720263 67.7429465,74.937895 C68.8276639,74.2770901 69.8438072,73.5788812 70.8848866,72.9024913 C70.5357821,75.0594581 70.1181036,77.1260318 69.6536699,79.0772764 Z M71.9446679,64.212284 C69.5165218,65.9578063 66.9699295,67.6409885 64.311125,69.2555966 C61.5276404,70.9325448 58.7285707,72.4411747 55.9326181,73.8188905 C53.0961444,72.4941638 50.2596707,71.0541079 47.457484,69.4363828 C44.6272444,67.8124237 41.9902589,66.1292415 39.5309427,64.4335913 C39.2940504,61.4506184 39.1475512,58.3398484 39.1475512,55.0638771 C39.1475512,51.884533 39.2846994,48.854805 39.5184747,45.9466402 C41.9060998,44.229171 44.4152881,42.5272868 47.1489006,40.8815086 C49.9199172,39.1952094 52.7283379,37.6896965 55.5274076,36.3119807 C58.3638812,37.6398244 61.212823,39.0767633 64.0056586,40.6913714 C66.8421323,42.3309155 69.4666497,44.0078637 71.9259659,45.7066309 C72.1690922,48.6896038 72.3155914,51.8003739 72.3155914,55.0638771 C72.3155914,58.2525723 72.1753262,61.2885342 71.9446679,64.212284 Z M87.7416445,49.9239374 C84.8989368,47.2526649 81.6915396,44.6219135 78.2129631,42.0753212 C77.7080084,37.4309851 76.9412254,33.0391264 75.9313161,28.9839041 C78.5121955,28.4415454 116.081445,21.5779025 87.7416445,49.9239374 Z M78.8519489,50.9244957 C80.410451,52.2055844 81.8972619,53.4929071 83.2469247,54.7615277 C81.8723259,56.1174245 80.4042169,57.4546192 78.8644169,58.7699949 C78.901821,57.5387783 78.9485761,56.3137957 78.9485761,55.0638771 C78.9516931,53.6643423 78.901821,52.2959775 78.8519489,50.9244957 Z M95.9549502,78.2512703 C94.7206166,80.4113541 90.7557874,81.7017938 85.3696044,81.7017938 C82.5206627,81.7017938 79.3724886,81.3308703 76.0684643,80.6731825 C77.0378526,76.6647152 77.7609975,72.3258456 78.2534841,67.7625516 C81.7850497,65.0694601 84.9924469,62.2922095 87.8538567,59.4806719 C95.1569972,67.6783925 97.8968437,74.8973739 95.9549502,78.2512703 Z\" id=\"_x3C_Compound_Path_x3E__1_\" fill=\"#E6BD7D\" fill-rule=\"nonzero\"><\/path>\n    <\/g>\n<\/svg>",
+            "title": "Énergie et bien-être au quotidien",
+            "title_size": "h2",
+            "text": ""
+          }
+        },
+        "guarantee-3": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "<!--?xml version=\"1.0\" encoding=\"UTF-8\"?-->\n<svg width=\"110px\" height=\"110px\" viewbox=\"0 0 110 110\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n    <title>cardio<\/title>\n    <g id=\"cardio\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M78.2980769,13 C62.6923077,13 55,28.3846154 55,28.3846154 C55,28.3846154 47.3076923,13 31.7019231,13 C19.0192308,13 8.97596154,23.6105769 8.84615385,36.2716346 C8.58173077,62.5528846 29.6947115,81.2427885 52.8365385,96.9495192 C54.1420978,97.8377383 55.8579022,97.8377383 57.1634615,96.9495192 C80.3028846,81.2427885 101.415865,62.5528846 101.153846,36.2716346 C101.024038,23.6105769 90.9807692,13 78.2980769,13 Z\" id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"9\"><\/path>\n        <polyline id=\"Path\" stroke=\"#E6BD7D\" stroke-width=\"9\" points=\"5 55.3076923 31.9230769 55.3076923 43.4615385 32.2307692 55 70.6923077 66.5384615 47.6153846 74.2307692 63 105 63\"><\/polyline>\n    <\/g>\n<\/svg>",
+            "title": "Santé et performance",
+            "title_size": "h2",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "guarantee-1",
+        "guarantee-2",
+        "guarantee-3"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#f2f2f2",
+        "gradient_background": "",
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_divider": false,
+        "heading": "Vous seriez peut-être intéressé par",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": false,
+        "enable_quick_view": false,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "collapsible-content",
+    "54313485-5106-402b-b60f-0fc22f875c5c",
+    "guarantees",
+    "product-recommendations"
+  ]
+}
