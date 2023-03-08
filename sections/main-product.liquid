@@ -554,9 +554,6 @@
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                   {{ form | payment_terms }}
 
-{% render 'loop-subscriptions', type: 'product-widget', product: product %}
-
-                  
                 {%- endform -%}
               </div>
             {%- endif -%}
@@ -584,11 +581,6 @@
                 {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                   {{ form | payment_terms }}
-
-{% render 'loop-subscriptions', type: 'product-widget', product: product %}
-
-
-                  
                 {%- endform -%}
               </div>
             {%- endif -%}
@@ -965,7 +957,7 @@
   {%- endif -%}
 
   {%- assign sticky_cart = section.blocks | where: "type", "sticky_cart" | first -%}
-  {%- if sticky_cart -%}
+  {%- if sticky_cart and template.suffix != 'product-daily' -%}
     <link rel="stylesheet" href="{{ 'component-product-sticky-cart.css' | asset_url }}" media="print" onload="this.media='all'">
     <animate-sticky class="sticky-cart-wrapper hidden">
       <span class="sticky-cart-block" {{ sticky_cart.shopify_attributes }}></span>
@@ -997,7 +989,6 @@
           <product-form class="sticky-cart__form">
             {%- assign sticky_cart_form_id = product_form_id | append: '--alt' -%}
             {%- form 'product', product, id: sticky_cart_form_id, novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-{% render 'loop-subscriptions' type: 'product-widget', product: product %}
 
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled="disabled">
 
